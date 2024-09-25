@@ -1,4 +1,1 @@
 xgboost
-pandas
-numpy
-pickle
