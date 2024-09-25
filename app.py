@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import xgboost
+from xgboost import XGBClassifier
 import pickle
 
 with open('final_model_xgb.pkl','rb') as file:
