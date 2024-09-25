@@ -17,7 +17,6 @@ def prediction(input_data):
         return f'This booking is less likely to get canceled: Chances={round(pred*100,2)}%'
     
 def main():
-    st.image('image.png',use_column_width=True)
     st.title('INN Hotels')
 
     lt = st.text_input('Enter Lead time.')
