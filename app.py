@@ -9,7 +9,7 @@ with open('final_model_xgb.pkl','rb') as file:
 
 def prediction(input_data):
 
-    input_data = np.array(input_data)
+    input_data = np.array(input_data,dtype='object')
 
     pred = model.predict_proba(input_data)[:,1][0]
 
